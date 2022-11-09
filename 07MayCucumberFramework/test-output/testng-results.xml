@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-24T15:32:15 IST" name="Default suite" finished-at="2022-09-24T15:32:43 IST" duration-ms="27992">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-24T15:32:15 IST" name="Default test" finished-at="2022-09-24T15:32:43 IST" duration-ms="27992">
+      <class name="cucucmberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" started-at="2022-09-24T15:32:15 IST" name="setUpClass" finished-at="2022-09-24T15:32:15 IST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c6a4ffd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" started-at="2022-09-24T15:32:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T15:32:26 IST" duration-ms="10807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy Samsung galaxy s6 product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buy Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" started-at="2022-09-24T15:32:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T15:32:35 IST" duration-ms="9286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy Nokia lumia1520 product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buy Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" started-at="2022-09-24T15:32:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-24T15:32:43 IST" duration-ms="7522" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at stepDefinitions.LoginPageStep.user_is_logged_in(LoginPageStep.java:61)
+at ✽.user is logged in(file:///D:/AUTOMATION%20TESTING/DAILY%20NOTES%20SELENIUM/BDD%20framework%20notes/07MayCucumberFramework%20(1)/07MayCucumberFramework/src/test/java/featureLayer/LoginPage.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucucmberOptions.TestRunner@618b19ad]" started-at="2022-09-24T15:32:43 IST" name="tearDownClass" finished-at="2022-09-24T15:32:43 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucucmberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
